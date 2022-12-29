@@ -2,7 +2,7 @@
 
 '''
 Auther - Swapnil Bondar
-Decription - Fuel Rate Code
+Description - Fuel Rate with simple Menu Driven program by use conditional statement  
 Date - 29-12-2022
 
 '''
@@ -51,7 +51,7 @@ print(__doc__)
                 print("*************** CNG ***************")
                 amount = float(input("Enter Amount = "))
                 kg = amount / cng
-                print(f"Hi You Got {kg} litres of Rs. {amount}\n")
+                print(f"Hi You Got {'%.2f' % kg} kg CNG of Rs. {amount}\n")
 
             elif ch == 4:
                 print("Thank You For Wisiting !!")
